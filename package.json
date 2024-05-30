@@ -1,5 +1,5 @@
 {
-  "name": "uj-may-assessment",
+  "name": "",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -25,8 +25,8 @@
   "contributors": [],
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "test": ""
+    "test": "",
+    "build":"vite build"
   },
   "devDependencies": {
     "vite": "^5.2.12",

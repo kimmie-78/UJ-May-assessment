@@ -4,8 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--Stylesheet --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Javascript --->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style>
+       
+        .banner{
+            padding: 0px;
+            margin: 0%;
+            margin-top: -50px;
+            margin-bottom: -10px;
+            background-color:#747474;
+            direction: rtl;
+        }
+       .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex: 1;
+            max-width: 100%;
+        }
+      
+@media screen and (max-width: 800px) {
+            .row {
+                flex-direction: column;
+            }
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World</h1>
+   
+        <div class="banner" ><h1>{{user.fullName}}</h1>
+            <h5>{{user.phrase}}</h5></div>
+    <div class="row">
+        <div class="column" style="background-color:#959987;">
+            <img src="{{user.photo}}" alt="me" height="400px" width="380px">
+            <p style="font-size: 24px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{profile.title}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 7px; color:aliceblue;">{{profile.description}}</p>
+            <p style="font-size: 24px; margin-left: 20px; margin-top: 20px; color:aliceblue;">{{skills.title}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{skills.techS}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{skills.descriptionData}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{skills.descriptionWeb}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{skills.descriptionAdd}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{skills.descriptionMeth}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{skills.descriptionSoft}}</p>
+            <p style="font-size: 24px; margin-left: 20px; margin-top: 25px; color:aliceblue;">{{awards.title}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{awards.first}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{awards.second}}</p>
+        </div>
+        
+        <div class="column" style="background-color:#747474;">
+        
+          <p style="font-size: 24px; margin-left: 20px; margin-top: 78px; color:aliceblue;">{{education.phrase}}</p>
+          <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{education.institutionName}}</p>
+          <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{education.description}}</p>
+
+          <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{uni.degree}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{uni.year}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{uni.description}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{uni.description2}}</p>
+
+            <p style="font-size: 24px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{highschool.name}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{highschool.phrase}}</p>
+            
+            <p style="font-size: 24px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{projectExp1.name}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{projectExp1.title}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{projectExp1.project}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{projectExp1.phrase}}</p>
+
+
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{projectExp2.title}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{projectExp2.project}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{projectExp2.phrase}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{projectExp2.phrase1}}</p>
+        </div>
+        
+      </div>
+     
+<footer>
+    <div class="row">
+        <div class="column" style="background-color:#959987;">
+          <p>{{user.phone}}</p>
+        </div>
+        <div class="column" style="background-color:#959987;">
+          
+          <p>{{user.email}}</p>
+        </div>
+        <div class="column" style="background-color:#959987;">
+        
+          <p>{{user.link}}</p>
+        </div>
+      </div>
+  </footer>
 </body>
 </html>

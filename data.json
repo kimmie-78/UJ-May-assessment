@@ -1,38 +1,63 @@
 {
     "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "fullName" : "Kimberley R Isaac",
+        "photo" : "Kimberley_Isaac_Image.jpeg",
+        "phone" : "0834100642",
+        "email" : "kimberelyisaac217@gmail.com",
+        "phrase":"BCom in Information System Graduate",
+        "link":"https://www.linkedin.com/in/kimberley-isaac/"
+    },
+    "profile":{
+        "title":"PROFILE",
+        "description":"I am a highly motivated and passionate Information System Graduate seeking an opportunity to apply and further develop my technical and analytic skills in a dynamic and innovative environment. I am a committed to continuous learning and staying updated with the latest technologies in the field."
+    },
+    "skills":{
+        "title":"SKILLS",
+        "techS":"Technical Skills:",
+        "descriptionData":"•Data Analysis: MS SQL, Python, Azure",
+        "descriptionWeb":"•Web Development: HTML, CSS, C#, ASP.NET",
+        "descriptionAdd":"•Additional Tools: JavaScript, Microsoft Office Suite (Word, Excel, PowerPoint, Access)",
+        "descriptionMeth":"•Methodologies: Agile Methodology, Kanban, Scrum, Design Thinking",
+        "descriptionSoft":"•Soft Skills: Leadership | Problem-solving | Time Management | Teamwork"
+    },
+    "awards":{
+        "title":"AWARDS",
+        "first":"•Artificial Intelligence in the 4IR (2020)",
+        "second":"•Best Temporary Employment Website, TPC Hackathon UJ (2023)"
+
     },
     "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+        "phrase":"EDUCATIONAl HISTORY",
+        "institutionName" : "UNIVERSITY OF JOHANNESBURG",
+        "description" : "| Jan 2021- Dec 2019"
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
-    },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        }
-    ]
+    "uni":{
+        "degree":"Bachelors of Commerce in Information Systems",
+        "year":"| Jan 2021-Dec 2023",
+        "description": "•Studied Development Software, Information Systems, Business Management, and Entrepreneurship",
+        "description2":"•I was selected as the class representative for  Development software, showcasing my leadership and communication skills within the academic community."
+     },
+     "highschool":{
+        "name":"KRUGERSDORP HIGH SCHOOL",
+        "phrase":"Bachelor Pass | Jan 2015 - Dec 2019"
+     },
+   "workExp":{
+    "title":"WORK EXPERIENCE",
+    "name":"INTERNSHIP | March 2024 -present",
+    "where":"University of Johannesburg and Accenture",
+    "what":"4IR Work Readiness Program "
+   },
+   "projectExp1":{
+    "name":"PROJECT EXPERIENCE",
+    "title":"FULL STACK DEVELOPER",
+    "project":"•A Web App for Metrobus travelers. It offers online schedules, problem reporting, real-time traffic on Google Maps, and bus notifications.",
+    "phrase":"•I skillfully engineered webpages for a comprehensive year-long project utilizing HTML, CSS, C#, Javascript, and ASP.NET."
+   },
+   "projectExp2":{
+    "title":"FULL STACK DEVELOPER",
+    "project":"AppointMe |  May 2023",
+    "phrase":"•I collaboratively developed sophisticated webpages during a hackathon, leveraging my proficiency in HTML, CSS, C#, ASP.NET, and Figma.",
+    "phrase1":"•Collaborated with other developers."
+   }
+
 }
