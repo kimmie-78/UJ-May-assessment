@@ -26,6 +26,11 @@
             flex: 1;
             max-width: 100%;
         }
+        .img{
+          margin-left: 85px;
+          width:450px;
+          height:500px;
+        }
       
 @media screen and (max-width: 800px) {
             .row {
@@ -33,6 +38,12 @@
             }
             .column {
                 width: 100%;
+            }
+            .img{
+              display:flex;
+              margin-left: 50px;
+              width:320px;
+             height:500px;
             }
         }
     </style>
@@ -43,7 +54,7 @@
             <h5>{{user.phrase}}</h5></div>
     <div class="row">
         <div class="column" style="background-color:#959987;">
-            
+            <img src="{{user.photo}}" alt="me" class="img" >
             <p style="font-size: 24px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{profile.title}}</p>
             <p style="font-size: 16px; margin-left: 20px; margin-top: 7px; color:aliceblue;">{{profile.description}}</p>
             <p style="font-size: 24px; margin-left: 20px; margin-top: 20px; color:aliceblue;">{{skills.title}}</p>
@@ -52,7 +63,7 @@
             <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{skills.descriptionWeb}}</p>
             <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{skills.descriptionAdd}}</p>
             <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{skills.descriptionMeth}}</p>
-            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{skills.descriptionSoft}}</p>
+            <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:#f0f8ff;">{{skills.descriptionSoft}}</p>
             <p style="font-size: 24px; margin-left: 20px; margin-top: 25px; color:aliceblue;">{{awards.title}}</p>
             <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{awards.first}}</p>
             <p style="font-size: 16px; margin-left: 20px; margin-top: 10px; color:aliceblue;">{{awards.second}}</p>
